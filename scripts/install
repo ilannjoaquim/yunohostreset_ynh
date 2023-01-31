@@ -20,8 +20,8 @@ ynh_abort_if_errors
 # RESET CHMOD ETC
 #=================================================
 
-sudo chmod 600 /etc/ssh/ssh_host_ed25519_key
-sudo chmod 600 /etc/ssh/ssh_host_ecdsa_key
+sudo chmod 600 /etc/ssh/
+sudo chmod 600 /etc/ssh/
 
 #=================================================
 # RETRIEVE ARGUMENTS FROM THE MANIFEST
