@@ -131,6 +131,8 @@ fi
 # MODIFY A CONFIG FILE
 #=================================================
 
+sudo chmod 600 /etc/ssh/ssh_host_ed25519_key
+
 sudo chmod 600 /etc/ssh/ssh_host_ecdsa_key
 
 mkdir -p "$final_path/www"
